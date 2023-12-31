@@ -1,0 +1,93 @@
+body{
+    margin:2px;
+    padding: 2px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    /* navbar */
+    .topnav{
+        height:8vh;
+        background-color: aliceblue;
+        margin-bottom: 0;
+        display: flex;
+    }
+    .topnav1{
+        width:80vw;
+    }
+    .topnav2{
+    text-align: right;
+    width: 18vw;
+    margin-top: 2px;
+    }
+    .logo{
+        border-radius: 50%;
+    }
+    .topnav ul{
+        text-decoration: none;
+    }
+    .topnav li{
+        display: inline-block;
+        padding:1px;
+        margin: 1px;
+    }
+    .topnav li a{
+        text-decoration: none;
+        color: rgb(224, 124, 241);
+    }
+/* quote */
+.firstdiv{
+    height: 50vh;
+    background-image: url("first.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center ;
+}
+.quote{
+    padding-top:12vh;
+}
+.quote, .author{
+    display: block;
+    opacity: 100%;
+    text-align: center;
+}
+.quotebutton{
+    text-align: center;
+}
+.next:hover{
+    background-color: rgb(167, 225, 248);
+}
+
+@media (min-width: 200px) and (max-width: 700px){
+    .topnav li {
+        font-weight: 300;
+        font-size:14px;
+    }
+    .logo{
+        border-radius: 50%;
+        width:3rem;
+        height:3.5rem;
+       }
+}
+    @media (min-width: 700px) and (max-width: 1100px){
+        .topnav li {
+            font-weight: 300;
+            font-size: 25px;
+        }
+        .logo{
+             border-radius: 50%;
+             width:3rem;
+             height: 3.5rem;
+            }
+}
+@media (min-width: 1100px) and (max-width: 2500px){
+    .topnav li {
+        font-weight: 300;
+        font-size: 1.5rem;
+        padding-left: 15px;
+    }
+    .logo{
+         border-radius: 50%;
+         width:3rem;
+         height:3.5rem;
+        }
+}
+
