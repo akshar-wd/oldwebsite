@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="about.css">
+    <script>function askName() {
+        let username = prompt("Write I love You to move ahead");}</script>
+</head>
+<body onload="askName()">
+    <div class="topnav">
+        <div class="topnav1">
+            <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html" >About Us</a></li>
+            <li><a href="gamezone.html" >Gamezone</a></li>
+            <li><a href="#" >Contact</a></li>
+            </ul>
+        </div>
+        <div class="topnav2">
+            <image src="cutepanda.png" width="40px" height="50"class="logo"></image>
+        </div>
+    </div>
+    <div class="firstmaindiv">
+        <h1>
+            <span class="quote" id="quote"></span>
+        </h1>
+            <p class="author" id="author"></p>
+      <hr />
+      <div class="quotebutton">
+        <button class="next"  onclick="getNewQuote()">Next quote</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+    <div class="cuteimages">
+
+    </div>
+</body>
+</html>
